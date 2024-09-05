@@ -5,12 +5,12 @@ const props = defineProps({
 </script>
 
 <template>
-  <header class="w-1080 h-64 flex items-center relative overflow-hidden" :class="{ сoffee: activeDrink === 'Кофе', tea: activeDrink === 'Чай', milk: activeDrink === 'Молочный коктейль', water: activeDrink === 'Морсы и газ. напитки'}">
+  <header class="w-1080 h-60 flex items-center relative overflow-hidden" :class="{ сoffee: activeDrink === 'Кофе', tea: activeDrink === 'Чай', milk: activeDrink === 'Молочный коктейль', water: activeDrink === 'Морсы и газ. напитки'}">
     <div class="px-5 flex flex-row justify-between w-full items-center z-10">
       <p class="mont text-header font-medium">Выбор напитка</p>
-      <div class="flex flex-row bg-white rounded35px">
+      <div class="flex flex-row bg-white rounded35px items-center">
         <img src="@/assets/img/phone.svg" alt="">
-        <p class="mont font-medium text-2xl py-9 pr-7 pl-4">Вход / регистрация</p>
+        <p class="mont font-medium text-2xl pr-7 pl-4">Вход / регистрация</p>
       </div>
     </div>
     <div class="absolute top-30 right-12 z-0">
@@ -25,7 +25,7 @@ const props = defineProps({
 <style scoped>
 .d28 {
 height: 200px; 
-width: 260px; 
+width: 280px; 
 margin: 6px;
 rotate: 270deg;
 position: relative;
