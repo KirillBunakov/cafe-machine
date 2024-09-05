@@ -1,0 +1,276 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .beige{
+    background-color: #EFCCB9;
+  }
+
+  .beige-light{
+    background-color: #FFE7DB;
+  }
+
+  .w-67_5rem{
+    width: 67.5rem;
+  }
+
+  .w-1080{
+    width: 1080px;
+  }
+
+  .h-1878{
+    height: 1878px;
+  }
+
+  .mont{
+    font-family: Mont;
+  }
+
+  .text-header{
+    font-size: 4rem;
+  }
+
+  .rounded35px{
+    border-radius: 35px;
+  }
+
+  .rounded-8xl{
+    border-radius: 8rem;
+  }
+
+  .rounded50px{
+    border-radius: 50px;
+  }
+
+  .rounded35px-tl-tr{
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+  }
+
+  .rounded35px-bl-br{
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+  }
+
+  .сoffee{
+    background-color: #EFCCB9;
+  }
+
+  .tea{
+    background-color: #C9EA94;
+  }
+
+  .milk{
+    background-color: #F9ECD2;
+  }
+
+  .water{
+    background-color: #FFE665;
+  }
+  .text-32{
+    font-size: 32px;
+  }
+
+  .text-40{
+    font-size: 40px;
+    line-height: 70px;
+  }
+
+  .text-42{
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .text-82{
+    font-size: 82px;
+    line-height: 90px;
+  }
+
+  .card-border{
+    border: 1px solid #D8D8D8
+  }
+
+  .rounded-tl-4xl{
+    border-top-left-radius: 3rem;
+  }
+
+  .rounded-tr-4xl{
+    border-top-right-radius: 3rem;
+  }
+
+  .grey{
+    background-color: #F3F3F3;
+  }
+  .activeCard{
+    box-shadow: 0px -10px 75px 0px #00000017;
+  }
+
+  .triangle{
+    border: 45px solid transparent; border-top: 70px solid #F3F3F3;
+  }
+
+  .w-drinkcard{
+    width: 333px;
+  }
+  
+  .h-drinkcard{
+    height: 491px;
+  }
+  
+  .w-296{
+    width: 296px;
+  }
+  
+  .h-296{
+    height: 296px;
+  }
+
+  .pt-50{
+    padding-top: 200px
+  }
+
+  .h-92{
+    height: 23rem;
+  }
+
+  .modal-img{
+    width: 367px;
+    height: 539px;
+  }
+
+  .bottle-s{
+    width: 83px;
+    height: 118px;
+  }
+
+  .bottle-m{
+    width: 100px;
+    height: 142px;
+  }
+
+  .bottle-l{
+    width: 122px;
+    height: 174px;
+  }
+
+  .yellow{
+    background-color: #F5D009;
+  }
+
+  .border-yellow{
+    border: 1px solid #F5D009
+  }
+
+  .bggrey{
+    background-color: #3E3E3EA8;
+  }
+
+  .dark-grey{
+    background-color: #3E3E3EA8;
+  }
+
+  .text-grey{
+    color: #3E3E3EA8;
+  }
+  
+  .h-95px{
+    height: 95px;
+  }
+
+  .w-95px{
+    width: 95px;
+  }
+
+  .border-1{
+    border: 1px solid #D2D2D2
+  }
+
+  .h-119px{
+    height: 119px;
+  }
+
+  .h-1100{
+    height: 1100px;
+  }
+
+  .top-1000{
+    top: -1000px;
+  }
+
+  .mb-100{
+    margin-bottom: 25rem;
+  }
+
+  .backBtn{
+    width: 391px;
+    height: 186.69px;
+  }
+
+  .pt-61rem{
+    padding-top: 41rem;
+  }
+
+  .w-65{
+    width: 65rem;
+  }
+
+  .text-16rem{
+    font-size: 16rem;
+  }
+
+  .text-13rem{
+    font-size: 13rem;
+    line-height: 15rem;
+  }
+
+  .text-10rem{
+    font-size: 10rem;
+    line-height: 10rem;
+  }
+
+  .timer{
+    height: 57.5rem;
+    width: 57.5rem;
+  }
+
+  .tea-back{
+    background-color: #DEF8B7;
+  }
+
+  .coffee-back{
+    background-color: #FFE7DB;
+  }
+
+  .coctail-back{
+    background-color: #FFF7E8;
+  }
+
+  .water-back{
+    background-color: #FFEF9A;
+  }
+
+  .promo-circle{
+    height: 850px;
+    width: 850px;
+  }
+
+  .promo-circle2{
+    height: 25rem;
+    width: 25rem;
+  }
+
+  .promo-circle3{
+    height: 22rem;
+    width: 22rem;
+  }
+
+  .bottom-31rem{
+    bottom: 31rem;
+  }
+
+  .bottom-710px{
+    bottom: 710px
+  }
+
+}
