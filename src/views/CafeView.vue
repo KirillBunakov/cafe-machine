@@ -13,8 +13,8 @@ function currentDrink(drink) {
 
 const drinkAssortiment = ref([
   {name: 'Кофе', body:[
-    {name: 'Эспрессо', price: ['79','159','229'], img: '@/assets/img/cofe/espresso.png'},
-    {name: 'Двойной Эспрессо', price: ['109','159','229'], img: '@/assets/img/cofe/espresso.png'},
+    {name: 'Эспрессо', price: ['79','159','229'], img: 'src/assets/img/cofe/espresso.png'},
+    {name: 'Двойной Эспрессо', price: ['109','159','229'], img: 'src/assets/img/cofe/espresso.png'},
     {name: 'Американо', price: ['119','169','239'], img: '@/assets/img/cofe/amerikano.png'},
     {name: 'Латте', price: ['129','179','249'], img: '@/assets/img/cofe/latte.svg'},
     {name: 'Капучино', price: ['129','179','249'], img: '@/assets/img/cofe/capuccino.svg'},
@@ -53,7 +53,6 @@ const activeCards = computed(() => {
 const chosen = ref('')
 function chosenItem(item){
   chosen.value = item
-  console.log(chosen.value)
 }
 </script>
 
