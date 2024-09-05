@@ -7,10 +7,10 @@ const props = defineProps({
 })
 
 const drinkTypes = ref([
-  {name: 'Кофе', img: '/src/assets/img/coffee.png'},
-  {name: 'Чай', img: '/src/assets/img/tea.png'},
-  {name: 'Молочный коктейль', img: '/src/assets/img/milk-coctail.png'},
-  {name: 'Морсы и газ. напитки', img: '/src/assets/img/juice-water.png'}
+  {name: 'Кофе', img: '@/assets/img/coffee.png'},
+  {name: 'Чай', img: '@/assets/img/tea.png'},
+  {name: 'Молочный коктейль', img: '@/assets/img/milk-coctail.png'},
+  {name: 'Морсы и газ. напитки', img: '@/assets/img/juice-water.png'}
 ])
 </script>
 
