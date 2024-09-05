@@ -5,7 +5,6 @@ import DrinkCard from '@/components/modules/Cafe/DrinkCard.vue';
 import DrinkCardHeader from '@/components/modules/Cafe/DrinkCardHeader.vue';
 import AppDrink from '@/components/modules/Cafe/AppDrink.vue';
 import { ref, computed } from 'vue';
-import imageConfig from '@/imageConfig';
 
 const activeDrink = ref('Кофе')
 function currentDrink(drink) {
@@ -14,37 +13,36 @@ function currentDrink(drink) {
 
 const drinkAssortiment = ref([
   {name: 'Кофе', body:[
-    // {name: 'Эспрессо', price: ['79','159','229'], img: 'src/assets/img/cofe/espresso.png'},
-    {name: 'Эспрессо', price: ['79','159','229'], img: `${imageConfig.imagePath}cofe.svg`},
-    {name: 'Двойной Эспрессо', price: ['109','159','229'], img: '@/assets/img/cofe/espresso.png'},
-    {name: 'Американо', price: ['119','169','239'], img: '@/assets/img/cofe/amerikano.png'},
-    {name: 'Латте', price: ['129','179','249'], img: '@/assets/img/cofe/latte.svg'},
-    {name: 'Капучино', price: ['129','179','249'], img: '@/assets/img/cofe/capuccino.svg'},
-    {name: 'Макиато', price: ['129','179','249'], img: '@/assets/img/cofe/makiato.svg'},
+    {name: 'Эспрессо', price: ['79','159','229'], img: 'src/assets/img/cofe/espresso.png'},
+    {name: 'Двойной Эспрессо', price: ['109','159','229'], img: 'src/assets/img/cofe/espresso.png'},
+    {name: 'Американо', price: ['119','169','239'], img: 'src/assets/img/cofe/amerikano.png'},
+    {name: 'Латте', price: ['129','179','249'], img: 'src/assets/img/cofe/latte.svg'},
+    {name: 'Капучино', price: ['129','179','249'], img: 'src/assets/img/cofe/capuccino.svg'},
+    {name: 'Макиато', price: ['129','179','249'], img: 'src/assets/img/cofe/makiato.svg'},
   ]},
   {name: 'Чай', body:[
-    {name: 'Черный чай', price: ['109','159','229'], img: '@/assets/img/tea.png'},
-    {name: 'Зеленый чай', price: ['109','159','229'], img: '@/assets/img/tea.png'},
-    {name: 'Чай с жасмином', price: ['119','169','239'], img: '@/assets/img/tea.png'},
-    {name: 'Чай с бергамотом', price: ['119','169','239'], img: '@/assets/img/tea.png'},
-    {name: 'Молочный улун', price: ['129','179','249'], img: '@/assets/img/tea.png'},
-    {name: 'Ягодный чай', price: ['129','179','249'], img: '@/assets/img/tea.png'},
+    {name: 'Черный чай', price: ['109','159','229'], img: 'src/assets/img/tea.png'},
+    {name: 'Зеленый чай', price: ['109','159','229'], img: 'src/assets/img/tea.png'},
+    {name: 'Чай с жасмином', price: ['119','169','239'], img: 'src/assets/img/tea.png'},
+    {name: 'Чай с бергамотом', price: ['119','169','239'], img: 'src/assets/img/tea.png'},
+    {name: 'Молочный улун', price: ['129','179','249'], img: 'src/assets/img/tea.png'},
+    {name: 'Ягодный чай', price: ['129','179','249'], img: 'src/assets/img/tea.png'},
   ]},
   {name: 'Молочный коктейль',  body:[
-    {name: 'Молочный коктейль', price: ['109','159','229'], img: '@/assets/img/milk-coctail.png'},
-    {name: 'Ванильный коктейль', price: ['109','159','229'], img: '@/assets/img/milk-coctail.png'},
-    {name: 'Ягодный коктейль', price: ['119','169','239'], img: '@/assets/img/milk-coctail.png'},
-    {name: 'Шоколадный коктейль', price: ['119','169','239'], img: '@/assets/img/milk-coctail.png'},
-    {name: 'Коктейль', price: ['129','179','249'], img: '@/assets/img/milk-coctail.png'},
-    {name: 'Коктейль', price: ['129','179','249'], img: '@/assets/img/milk-coctail.png'},
+    {name: 'Молочный коктейль', price: ['109','159','229'], img: 'src/assets/img/milk-coctail.png'},
+    {name: 'Ванильный коктейль', price: ['109','159','229'], img: 'src/assets/img/milk-coctail.png'},
+    {name: 'Ягодный коктейль', price: ['119','169','239'], img: 'src/assets/img/milk-coctail.png'},
+    {name: 'Шоколадный коктейль', price: ['119','169','239'], img: 'src/assets/img/milk-coctail.png'},
+    {name: 'Коктейль', price: ['129','179','249'], img: 'src/assets/img/milk-coctail.png'},
+    {name: 'Коктейль', price: ['129','179','249'], img: 'src/assets/img/milk-coctail.png'},
   ]},
   {name: 'Морсы и газ. напитки',  body:[
-    {name: 'Вода', price: ['109','159','229'], img: '@/assets/img/juice-water.png'},
-    {name: 'Газированная вода', price: ['109','159','229'], img: '@/assets/img/juice-water.png'},
-    {name: 'Морс ягодный', price: ['119','169','239'], img: '@/assets/img/juice-water.png'},
-    {name: 'Морс облепиховый', price: ['119','169','239'], img: '@/assets/img/juice-water.png'},
-    {name: 'Морс', price: ['129','179','249'], img: '@/assets/img/juice-water.png'},
-    {name: 'Морс', price: ['129','179','249'], img: '@/assets/img/juice-water.png'},
+    {name: 'Вода', price: ['109','159','229'], img: 'src/assets/img/juice-water.png'},
+    {name: 'Газированная вода', price: ['109','159','229'], img: 'src/assets/img/juice-water.png'},
+    {name: 'Морс ягодный', price: ['119','169','239'], img: 'src/assets/img/juice-water.png'},
+    {name: 'Морс облепиховый', price: ['119','169','239'], img: 'src/assets/img/juice-water.png'},
+    {name: 'Морс', price: ['129','179','249'], img: 'src/assets/img/juice-water.png'},
+    {name: 'Морс', price: ['129','179','249'], img: 'src/assets/img/juice-water.png'},
   ]}
 ])
 
