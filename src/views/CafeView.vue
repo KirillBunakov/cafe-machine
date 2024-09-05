@@ -5,6 +5,7 @@ import DrinkCard from '@/components/modules/Cafe/DrinkCard.vue';
 import DrinkCardHeader from '@/components/modules/Cafe/DrinkCardHeader.vue';
 import AppDrink from '@/components/modules/Cafe/AppDrink.vue';
 import { ref, computed } from 'vue';
+import imageConfig from '@/imageConfig';
 
 const activeDrink = ref('Кофе')
 function currentDrink(drink) {
@@ -13,9 +14,10 @@ function currentDrink(drink) {
 
 const drinkAssortiment = ref([
   {name: 'Кофе', body:[
-    {name: 'Эспрессо', price: ['79','159','229'], img: 'src/assets/img/cofe/espresso.png'},
+    // {name: 'Эспрессо', price: ['79','159','229'], img: 'src/assets/img/cofe/espresso.png'},
+    {name: 'Эспрессо', price: ['79','159','229'], img: `${imageConfig.imagePath}cofe/espresso.png`},
     {name: 'Двойной Эспрессо', price: ['109','159','229'], img: 'src/assets/img/cofe/espresso.png'},
-    {name: 'Американо', price: ['119','169','239'], img: '@/assets/img/cofe/amerikano.png'},
+    {name: 'Американо', price: ['119','169','239'], img: 'src/assets/img/cofe/amerikano.png'},
     {name: 'Латте', price: ['129','179','249'], img: '@/assets/img/cofe/latte.svg'},
     {name: 'Капучино', price: ['129','179','249'], img: '@/assets/img/cofe/capuccino.svg'},
     {name: 'Макиато', price: ['129','179','249'], img: '@/assets/img/cofe/makiato.svg'},
